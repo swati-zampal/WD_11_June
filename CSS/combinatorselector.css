@@ -1,0 +1,25 @@
+/* Combinator selectors */
+
+/* Descendent Combinator Selector*/
+div p {
+  color: blue;  
+}
+
+/*Child combinator selector */
+
+div>p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: burlywood;
+}
+
+/*Adjscent Sibling Combinator selector */
+div+p{
+    background-color: aqua;
+}
+
+
+/* General Silbling Selector */
+div~p{
+    font-style: italic;
+    color: rgb(236, 71, 71);
+}
