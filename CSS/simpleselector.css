@@ -1,0 +1,27 @@
+/* simple selectors */
+
+/* id selector */
+#id1{
+  color: blueviolet;
+}
+
+/* class selector */
+.class1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(165, 42, 42, 0.696);
+}
+
+/* tagname/ element selector */
+p{
+  background-color: beige;
+}
+
+/* grouping selector */
+#id1, .class1, h4{
+  font-size: large;
+}
+
+/* Universal Selector */
+*{
+   background-color:rgba(250, 235, 215, 0.772)
+}
