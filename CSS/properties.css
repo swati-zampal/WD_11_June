@@ -1,0 +1,43 @@
+/* text properties */
+p{
+    color: rgba(52, 230, 215, 0.84);
+    background-color: brown; 
+    text-indent: 200px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: blue;
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+    color: crimson;
+    text-shadow: 30px 25px 5px rgb(165, 112, 219);
+
+}
+/* font properties */
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-width: 100;
+}
+ 
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: medium;
+}
+
+section {
+    height: 90vh;
+    width: 100%;
+    /*background-color: antiquewhite;*/
+    /*background-image: url(../images/img1.jpg);*/
+    /*background-repeat: no-repeat;*/
+    background: linear-gradient(rgb(211, 58, 58),rgb(177, 136, 136), rgb(225, 70, 96), rgb(96, 96, 210), rgb(207, 77, 207));
+    /*ackground-attachment: fixed;*/
+    
+}
